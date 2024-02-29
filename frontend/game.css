@@ -1,0 +1,29 @@
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.choice-button{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.photo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    height: 50vh;
+    width: 100vw;
+}
+
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding: 10px;
+}
