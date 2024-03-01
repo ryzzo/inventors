@@ -1,4 +1,4 @@
-{"inventors":[
+var inventors = [
     {
         "name":"Madam C.J. Walker",
         "description":"descriptions/madam_walker.txt",
@@ -195,4 +195,4 @@
         "image_url":"images/john_muir.jpeg"
     }
 
-]}
+]
