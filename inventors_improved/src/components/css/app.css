@@ -1,0 +1,23 @@
+.button-area{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.start-button{
+    background-color: aqua;
+}
+
+.welcome-page{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.welcome-page-title{
+    font-size: 50px;
+}
