@@ -78,23 +78,3 @@ function displayImage(image_url) {
     const image_area = document.querySelector("img");
     image_area.src = image_url;
 }
-
-// main function
-function main() {
-    // generate three random index for inventors
-    let ind = indexGenerator();
-
-    // generate an array of the three inventors and display
-    let inventors = retrieveInventors(ind);
-    displayInventors(inventors);
-
-    // pick one of the three inventors as subject
-    let picked_inventor_idx = picked_index()
-    let pick_inventor = selectContent(picked_inventor_idx, inventors)
-
-    // get image url and display
-    let image_url = imageURL(picked_inventor_idx, inventors);
-    displayImage(image_url)
-}
-
-main()

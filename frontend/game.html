@@ -5,13 +5,18 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="game.css">
     
+    <script type="text/javascript" src="../data/data.js"></script>
+    <script type="text/javascript" src="../backend/game.js"></script>
+    <script type="text/javascript" src="../backend/logic.js"></script>
+    <script type="text/javascript" src="../backend/main.js"></script>
+     
 </head>
 <body>
     <div id="parent">
         <h2>Guess the Inventor</h2>
         <div>
             <div class="photo-section">
-                <img src="barack.webp" width="300" height="300">
+                <img width="300" height="300">
             </div>
             
         </div>
@@ -20,22 +25,21 @@
         </div>
         <div>
             <div class="choices">
-                <button class="choice-button">
+                <button class="choice-button" id="0" onclick="buttonClicked(this.id)">
                     <span id="inventor-1">inventor 1</span>
                 </button>
-                <button class="choice-button">
+                <button class="choice-button" id="1" onclick="buttonClicked(this.id)">
                     <span id="inventor-2">inventor 2</span>
                 </button>
-                <button class="choice-button">
+                <button class="choice-button" id="2" onclick="buttonClicked(this.id)">
                     <span id="inventor-3">inventor 3</span>
                 </button>
             </div>
         </div>
-        <div class="submit">
-            <button>Next</button>
+        <div class="next-button">
+            <button onclick="window.location.reload()">Next</button>
         </div>
     </div>
-    <script type="text/javascript" src="../data/data.js"></script>
-    <script type="text/javascript" src="../backend/game.js"></script>  
+  
 </body>
 </html>
