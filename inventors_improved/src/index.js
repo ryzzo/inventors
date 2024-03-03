@@ -2,8 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./components/css/app.css";
 
-import WelcomePage from "./components/WelcomePage";
+import { BrowserRouter, createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const domContainer = document.getElementById("root");
-const root = ReactDOM.createRoot(domContainer)
-root.render(<WelcomePage/>);
+
+import WelcomePage from "./components/WelcomePage";
+import InventorApp from "./components/InventorApp";
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <InventorApp />
+        </BrowserRouter>
+    </React.StrictMode>
+);
