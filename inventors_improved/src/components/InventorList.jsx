@@ -4,18 +4,17 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 import "./css/app.css";
+import InventorName from './InventorName';
 
 
 const InventorList = (props) => {
 
-    const {inventors} = props;
+    const {inventorsProps} = props;
 
     return(
         <ButtonGroup vertical className='button-group'>
-            {inventors.map((inventor) => (
-                <Button className='inventor-button' variant='light'>
-                    {inventor.name}
-                </Button>
+            {inventorsProps.map((inventor) => (
+                <InventorName key={inventor.id} inventorProp={inventor}/>
             ))}
         </ButtonGroup>
     );

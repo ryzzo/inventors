@@ -1,3 +1,9 @@
+img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .button-area{
     background-color: brown;
     display: flex;
@@ -11,23 +17,48 @@
     width: 100%;
 }
 
+.inventor{
+    background-color: yellow;
+}
+
 .inventor-button{
     display: block;
     width: 100%;
     height: 10vh;
 }
 
+.inventor-description{
+    text-align: center;
+}
+
+.inventor-image{
+    float:left;
+    width: 50%;
+}
+
 .inventor-list{
     height: 100vh;
 }
 
+.inventor-profile:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .inventor-profiles{
-    background-color: aqua;
-    height: 100vh;
+    height: 90vh;
+    overflow-y: scroll;
 }
 
 .start-button{
     background-color: aqua;
+}
+
+.submit-button-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .welcome-page{
