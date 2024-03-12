@@ -1,83 +1,57 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Button from 'react-bootstrap/Button';
+
 
 import "./css/app.css"
 import InventorList from './InventorList';
 import InventorProfiles from './InventorProfiles';
 import TaskBar from './TaskBar';
 
+import data from '../data/data/inventors.json';
 
 const InventorGame = () =>{
 
-        // DATA USED TO TEST
-        const inventors = [
-            {
-                id: 1,
-                name: 'Thomas Edison',
-                invention: 'light bulbs, electricity, film and audio devices',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 2,
-                name: 'Alexander Graham Bell',
-                invention: 'Telephone',
-                src: 'Jeff.jpeg',
-            },
-            {
-                id: 3,
-                name: 'George Washington Carver',
-                invention: 'use of peanuts',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 4,
-                name: 'Eli Whitney',
-                invention: 'Cotton gin',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 5,
-                name: 'Johannes Gutenberg',
-                invention: 'Gutenberg press',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 6,
-                name: 'John Logie Baird',
-                invention: 'mechanical television',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 7,
-                name: 'Benjamin Franklin',
-                invention: 'Lightning rod',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 8,
-                name: 'Henry Ford',
-                invention: 'Improved assembly line',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 9,
-                name: 'James Naismith',
-                invention: 'basketball',
-                src: 'Elon.jpeg',
-            },
-            {
-                id: 10,
-                name: 'Herman Hollerith',
-                invention: 'Punch card tabulation machine',
-                src: 'Elon.jpeg',
+    const [indexes, setIndexes] = useState([])
+
+    useEffect(() => {
+        const investors_indexes = indexGenerator();
+        setIndexes(investors_indexes);
+
+    }, [])
+
+    // generate random indexes from 1 to 38
+    function indexGenerator() {
+        var indexes = [];
+        let i = 0;
+        
+        while (i < 10) {
+            var randIndex = Math.floor((Math.random() * 38) + 1);
+            if (!indexes.includes(randIndex)) {
+                indexes.push(randIndex);
+                i++;
             }
-        ]
+        }
 
+        return indexes;
+    }
 
+    // retrieve investors with the random indexes
+    const chosen_inventors = (idxs) => {
+        var inventors = idxs.map(index => {
+            return investors_data[index];
+        })
+
+        return inventors;
+    };
+
+    const investors_data = data.inventors;
+
+    const inventors = chosen_inventors(indexes)
+    
     return(
         <Container>
             <Row>
@@ -94,7 +68,6 @@ const InventorGame = () =>{
                 <InventorList inventorsProps={inventors}/>
             </Col>
             </Row>
-            
         </Container>
     );
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
@@ -8,6 +8,7 @@ import InventorName from './InventorName';
 
 
 const InventorList = (props) => {
+    
 
     const {inventorsProps} = props;
 

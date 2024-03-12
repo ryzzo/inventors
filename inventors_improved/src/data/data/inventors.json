@@ -1,0 +1,237 @@
+{"inventors" : [
+    {
+        "id": 1,
+        "name":"Madam C.J. Walker",
+        "description":"descriptions/madam_walker.txt",
+        "image_url":"images/madam_walker.jpg"
+    },
+    {
+        "id": 2,
+        "name":"Thomas Edison",
+        "description":"descriptions/thomas_edison.txt",
+        "image_url":"images/thomas_edison.jpg"
+    },
+    {
+        "id": 3,
+        "name":"Alexander Graham Bell",
+        "description":"descriptions/graham_bell.txt",
+        "image_url":"images/graham_bell.jpg"
+    },
+    {
+        "id": 4,
+        "name":"Frederick jones",
+        "description":"descriptions/frederick_jones.txt",
+        "image_url":"images/frederick_jones.jpg"
+    },
+    {
+        "id": 5,
+        "name":"Joy Mangano",
+        "description":"descriptions/joy_mangano.txt",
+        "image_url":"images/joy_mangano.jpg" 
+    },
+    {
+        "id": 6,
+        "name":"Nikola Tesla",
+        "description":"descriptions/nikola_tesla.txt",
+        "image_url":"images/nikola_tesla.jpg"
+    },
+    {
+        "id": 7,
+        "name":"John Deere",
+        "description":"descriptions/john_deere.txt",
+        "image_url":"images/john_deere.jpg"
+    },
+    {
+        "id": 8,
+        "name":"Charles Babbage",
+        "description":"descriptions/charles_babbage.txt",
+        "image_url":"images/charles_babbage.jpg"
+    },
+    {
+        "id": 9,
+        "name":"Sarah Boone",
+        "description":"descriptions/sarah_boone.txt",
+        "image_url":"images/sarah_boone.jpg"
+    },
+    {
+        "id": 10,
+        "name":"Jan Matzeliger",
+        "description":"descriptions/jan_matzeliger.txt",
+        "image_url":"images/jan_matzeliger.jpg"
+    },
+    {
+        "id": 11,
+        "name":"Charles Goodyear",
+        "description":"descriptions/charles_goodyear.txt",
+        "image_url":"images/charles_goodyear.jpg"
+    },
+    {
+        "id": 12,
+        "name":"Wilbur Wright",
+        "description":"descriptions/wilbur_wright.txt",
+        "image_url":"images/wilbur_wright.jpg"
+    },
+    {
+        "id": 13,
+        "name":"Orville Wright",
+        "description":"descriptions/orville_wright.txt",
+        "image_url":"images/orville_wright.jpg"
+    },
+    {
+        "id": 14,
+        "name":"Philo T. Farnsworth",
+        "description":"descriptions/philo_fansworth.txt",
+        "image_url":"images/philo_fansworth.jpg"
+    },
+    {
+        "id": 15,
+        "name":"Steve Jobs",
+        "description":"descriptions/steve_jobs.txt",
+        "image_url":"images/steve_jobs.jpg"
+    },
+    {
+        "id": 16,
+        "name":"Steve Wozniak",
+        "description":"descriptions/steve_wozniak.txt",
+        "image_url":"images/steve_wozniak.jpg"
+    },
+    {
+        "id": 17,
+        "name":"Lonnie Johnson",
+        "description":"descriptions/lonnie_johnson.txt",
+        "image_url":"images/lonnie_johnson.jpg"
+    },
+    {
+        "id": 18,
+        "name":"Eli Whitney",
+        "description":"descriptions/eli_whitney.txt",
+        "image_url":"images/eli_whitney.jpg"
+    },
+    {
+        "id": 19,
+        "name":"Elijah McCoy",
+        "description":"descriptions/elijah_mccoy.txt",
+        "image_url":"images/elijah_mccoy.png"
+    },
+    {
+        "id": 20,
+        "name":"Samuel F.B. Morse",
+        "description":"descriptions/samuel_morse.txt",
+        "image_url":"images/samuel_morse.jpg"
+    },
+    {
+        "id": 21,
+        "name":"Garret Morgan",
+        "description":"descriptions/garret_morgan.txt",
+        "image_url":"images/garret_morgan.jpg"
+    },
+    {
+        "id": 22,
+        "name":"Samuel Colt",
+        "description":"descriptions/samuel_colt.txt",
+        "image_url":"images/samuel_colt.jpg"
+    },
+    {
+        "id": 23,
+        "name":"George Carruthers",
+        "description":"descriptions/george_carrauthers.txt",
+        "image_url":"images/george_carrauthers.jpg"
+    },
+    {
+        "id": 24,
+        "name":"Otis Boykin",
+        "description":"descriptions/otis_boykin.txt",
+        "image_url":"images/otis_boykin.jpg"
+    },
+    {
+        "id": 25,
+        "name":"George Eastman",
+        "description":"descriptions/george_eastman.txt",
+        "image_url":"images/george_eastman.jpg"
+    },
+    {
+        "id": 26,
+        "name":"Mark Dean",
+        "description":"descriptions/mark_dean.txt",
+        "image_url":"images/mark_dean.jpg"
+    },
+    {
+        "id": 27,
+        "name":"Granville T. Woods",
+        "description":"descriptions/granville_woods.txt",
+        "image_url":"images/granville_woods.jpg"
+    },
+    {
+        "id": 28,
+        "name":"Louis Braille",
+        "description":"descriptions/louis_braille.txt",
+        "image_url":"images/louis_braille.jpg"
+    },
+    {
+        "id": 29,
+        "name":"Guglielmo Marconi",
+        "description":"descriptions/guglielmo_marconi.txt",
+        "image_url":"images/guglielmo_marconi.jpg"
+    },
+    {
+        "id": 30,
+        "name":"Lewis Howard Latimer",
+        "description":"descriptions/lewis_latimer.txt",
+        "image_url":"images/lewis_latimer.png"
+    },
+    {
+        "id": 31,
+        "name":"Isaac Singer",
+        "description":"descriptions/isaac_singer.txt",
+        "image_url":"images/isaac_singer.jpg"
+    },
+    {
+        "id": 32,
+        "name":"Karl Benz",
+        "description":"descriptions/karl_benz.txt",
+        "image_url":"images/karl_benz.jpg"
+    },
+    {
+        "id": 33,
+        "name":"James West",
+        "description":"descriptions/james_west.txt",
+        "image_url":"images/james_west.jpeg"
+    },
+    {
+        "id": 34,
+        "name":"John Logie Baird",
+        "description":"descriptions/john_baird.txt",
+        "image_url":"images/john_baird.jpg"
+    },
+    {
+        "id": 35,
+        "name":"Jerry Lawson",
+        "description":"descriptions/jerry_lawson.txt",
+        "image_url":"images/jerry_lawson.png"
+    },
+    {
+        "id": 36,
+        "name":"John Jacob Astor IV",
+        "description":"descriptions/john_astor.txt",
+        "image_url":"images/john_astor.jpg"
+    },
+    {
+        "id": 37,
+        "name":"Henry Blair",
+        "description":"descriptions/henry_blair.txt",
+        "image_url":"images/henry_blair.jpg"
+    },
+    {
+        "id": 38,
+        "name":"Henry Ford",
+        "description":"descriptions/henry_ford.txt",
+        "image_url":"images/henry_ford.jpg"
+    },
+    {
+        "id": 39,
+        "name":"John Muir",
+        "description":"descriptions/john_muir.txt",
+        "image_url":"images/john_muir.jpg"
+    }
+
+]}
